@@ -11,9 +11,9 @@
 
 **Role**: End-to-end multimodal video sentiment analysis platform combining deep learning research with production SaaS deployment.
 
-**Performance**: 85.3% emotion accuracy, 92.1% sentiment accuracy on MELD dataset
+**Performance**: 63% emotion accuracy(vs. random baseline 14.3%), 65% sentiment accuracy(vs. random baseline 33.3%) on MELD dataset 
 
-**Tech Stack**: PyTorch + BERT + R3D-18 + AWS SageMaker + Next.js + TypeScript + PostgreSQL
+**Tech Stack**: Python + PyTorch + BERT + R3D-18 + AWS SageMaker + Next.js + TypeScript 
 
 **What it does**: Analyzes emotions and sentiments from videos by processing dialogue (text), facial expressions (video), and vocal tone (audio) simultaneously.
 
@@ -42,8 +42,8 @@ The multimodal model achieves state-of-the-art performance on the MELD dataset:
 
 | Metric | Emotion Classification | Sentiment Classification |
 |--------|----------------------|-------------------------|
-| **Accuracy** | **85.3%** | **92.1%** |
-| **Precision** | **84.7%** | **91.8%** |
+| **Accuracy** | **63.2%** | **65.8%** |
+| **Precision** | **61.0%** | **67.1%** |
 
 *Benchmarked on MELD (Multimodal EmotionLines Dataset) with 13,708 utterances across 1,433 dialogues*
 
